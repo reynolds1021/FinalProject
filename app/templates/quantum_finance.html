@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Quantum Finance</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/whatwedo.css">
+    <style>
+    
+    body {
+    background-image: url('../static/images/nza_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+    }
+  </style>
+
+  </head>
+  <body>
+    {% block content %}
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="box">
+            <h6>Quantum Finance:</h6>
+            <hr id="box-line">
+            <p><a class="two" href="/bsbkgrd">Background</a></p>
+            <p><a class="two" href="/bsmotiv">Motivation</a></p>
+            <p><a class="two" href="/bsquantmodel">Quantum Implementation</a></p> 
+            <p><a class="two" href="/bsresults">Results</a></p> 
+            <p id="end"><a class="two" href="/bsconc">Conclusion</a></p>
+           
+            <p>Please click on the links above to find out more about this module.</p>
+            <p><a class="three" href="#"></a></p>
+          </div>
+          
+        </div>
+
+        <div class="col">
+          <h2 id="para">Options Pricing: The Black-Scholes-Merton Model</h2>
+         
+
+          <a href="#"><img src="../static/images/BlackScholesModelDefinition.png" 
+            class="fa fa-align-center" alt="BSModel" aria-hidden="true" width= "805" height="1300"></a>
+          
+          
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+  {% endblock content %}

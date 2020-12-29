@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Quantum Databases</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/whatwedo.css">
+    <style>
+    
+    body {
+    background-image: url('../static/images/nza_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+    }
+  </style>
+
+  </head>
+  <body>
+    {% block content %}
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="box">
+            <h6>Quantum Databases</h6>
+            <hr id="box-line">
+            <p><a class="two" href="/quantdbbkgrd">Background</a></p>
+            <p><a class="two" href="/quantdbmotiv">Motivation</a></p>
+            <p><a class="two" href="/quantdbmodel">Quantum Implementation</a></p> 
+            <p><a class="two" href="/quantdbresults">Results</a></p> 
+            <p id="end"><a class="two" href="/quantdbconc">Conclusions</a></p>
+            
+            <p>Please click on the links above to find out more about this module.</p>
+            <p><a class="three" href="#"></a></p>
+          </div>
+          
+        </div>
+        
+
+        <div class="col">
+          <h2 id="para">Databases in the Quantum Domain</h2>
+          <p id="para"></p>
+          <img id ="AWS_QLDB_1" src="../static/images/AWS_QLDB.png" alt="AWS_QLDB">
+          <img id ="AWS_QLDB_2" src="../static/images/AWS_QLDB.jpeg" alt="AWS_QLDB" width="350" height="768">
+          <img id ="Quantum Algorithm" src="../static/images/Diagram-of-the-quantum-algorithm-for-the-four-item-database-search-problem-in-Figure-74.png" alt="Diagram"></a>
+         
+          
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+  {% endblock content %}

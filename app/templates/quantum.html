@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>A Quantum Approach</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/whatwedo.css">
+    <style>
+    
+    body {
+    background-image: url('../static/images/nza_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+    }
+  </style>
+
+  </head>
+  <body>
+    {% block content %}
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="box">
+            <h6>Project Summary:</h6>
+            <hr id="box-line">
+            <!-- *Change routes at a later time* -->
+            <p><a class="two" href="/quantbkgrd">Background/Premise</a></p> 
+            <p><a class="two" href="/quantbasics">Components</a></p>
+            <p><a class="two" href="/quantalgorithms">Algorithms/techniques used</a></p> 
+            <p><a class="two" href="/quantvsclass">Challenges </a></p> 
+            <p id="end"><a class="two" href="/quantfuture">Key Takeaways/Possible Future Expansion</a></p>
+            
+            <p>Please click on the links above to find out more about this module.</p>
+            <p><a class="three" href="#"></a></p>
+          </div>
+          
+        </div>
+
+        <div class="col">
+          <p id="para"></p>
+          <a href="#"><img src="../static/images/schrodingers-equation.jpg" alt="Schroedinger's Equation" width="805" height="1100"></a>
+        </div>
+         
+          
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+  {% endblock content %}

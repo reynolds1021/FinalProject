@@ -1,0 +1,176 @@
+.col {
+    background-color:white;
+    width:400px;
+    
+    
+    
+}
+
+
+
+span {
+    display:block;
+    margin: 10px 0px 30px 0px;
+}
+
+.p-2{
+    border: 1px solid black;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: -15px;
+    margin-bottom: -15px;
+
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    position:relative;
+}
+
+.divider {
+    position: absolute;
+    right:0px;
+    top:-5px;
+    color:lightgrey;
+    width:2px
+}
+
+
+a.one:link, a.one:visited {
+    display: block;
+    width: 215px;
+    color: black;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Bahnschrift Light' ;
+
+}
+
+a.one:hover, a.one:active {
+    color: #962b10;
+}
+
+.col-3 {
+    background-color:white;
+    
+    
+}
+
+.box {
+    background-color:#962b10;
+    width:275px;
+    height:500px;
+    padding:15px;
+    margin-bottom: 150px;
+    margin-top:35px;
+
+    
+}
+h6 {
+    color:white;
+    margin-bottom:10px;
+    padding-top:10px;
+    padding-left:15px;
+}
+#box-line {
+    border:1px solid white;
+    width:75%;
+    margin-right:50px
+    
+}
+
+a.two:link {
+    color:white;
+    padding-left:15px;
+    padding-bottom:10px;
+
+}
+a.two:visited {color:white}
+a.two:hover {color:black}
+
+a.three:link {
+    color:white;
+    padding-left:15px;
+}
+
+a.three:visited {color:white}
+a.three:hover {color:black}
+#end {
+    padding-bottom:10px;
+
+}
+
+img {
+    margin-left:15px;
+    height:auto;
+}
+
+#pic {
+    font-size:12px;
+    color:white;
+    margin-left:15px;
+
+}
+#para {
+   margin-right:15px;
+   margin-top:30px
+
+}
+
+#staff {
+    margin-right:-20px;
+    height: auto;
+}
+
+#wel {
+    margin-right:-20px;
+    height: auto;
+    
+}
+
+#att {
+    margin-right:100px;
+    height: auto;
+}
+
+#rep {
+    height:auto;
+}
+
+#his {
+    height:auto;
+}
+
+.footer {
+    border:1px solid black;
+    background-color: white;
+    
+}
+
+#bot-link {
+    color:black;
+    text-align: center;
+    
+}
+
+a.four:link { 
+    color:black;
+}
+
+a.four:visited {color:black}
+a.four:hover {color:#962b10}
+
+#copy {
+    text-align:center;
+    color:black
+}
+
+    
